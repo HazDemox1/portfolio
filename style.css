@@ -356,6 +356,45 @@ hr {
         grid-area: 3 / 3 / -1 / -1;
         text-align: left;
     }
+
+    .skill-1 {
+        margin-top: 6rem;
+        display: grid;
+        grid-template-rows: 1fr 0.2fr 0.8fr;
+        grid-template-columns: 2fr;
+        gap: 1rem;
+    }
+    
+    
+    .skill-1 h2 {
+        color: #B0DB9C;
+        grid-area: 2 / 2 / 3 / 3;
+        text-align: left;
+    }
+    
+    .skill-1 p {
+        grid-area: 3 / 3 / -1 / -1;
+        text-align: left;
+    }
+    
+    .skill-2 {
+        display: grid;
+        grid-template-rows: 1fr 0.2fr 0.8fr;
+        grid-template-columns: 2fr;
+        gap: 1rem;
+    }
+    
+    .skill-2 h2 {
+        color: #B0DB9C;
+        grid-area: 2 / 2 / 3 / 3;
+        text-align: left;
+    }
+    
+    .skill-2 p {
+        grid-area: 3 / 3 / -1 / -1;
+        text-align: left;
+    }
+
   }
   
 
