@@ -2,6 +2,9 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: 0px;
 }
 
 section {
@@ -305,6 +308,50 @@ hr {
 }
 
 @media (max-width: 425px) {
+
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scrollbar-width: 0px;
+    }
+
+    body::-webkit-scrollbar {
+        display: none; /* Chrome, Safari */
+      }
+
+    .hero-content h1 {
+        font-size: 2.4rem;
+        font-family: "Exile", system-ui;
+        font-weight: 400;
+    }
+    
+    .hero-content h2 {
+        font-size: 1.9rem;
+        margin-bottom: 0.5rem;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+    }
+
+    .cloud {
+        height: auto;
+        width: 6rem;
+    }
+    
+    .hero-content .mtn {
+        margin: 0;
+        align-self: flex-end;
+        padding-top: 17rem;
+        height: 18rem;
+    
+    }
+
+    .about-me-content p {
+        display: inline-block;
+        font-size: 1.1rem;
+        width: 20rem;
+        font-weight: 400;
+    }
+
     .proj-1 {
         margin-top: 6rem;
         display: grid;
@@ -393,6 +440,11 @@ hr {
     .skill-2 p {
         grid-area: 3 / 3 / -1 / -1;
         text-align: left;
+    }
+
+    .footer-content p {
+        padding-top: 10px;
+        font-size: 0.8rem;
     }
 
   }
